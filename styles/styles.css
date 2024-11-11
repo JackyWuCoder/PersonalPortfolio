@@ -7,7 +7,7 @@
 
 :root {
   --color-primary: #191d2b;
-  --color-seconary: #27ae60;
+  --color-secondary: #27ae60;
   --color-white: #fff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -87,6 +87,13 @@ section {
   align-items: center;
   justify-content: center;
   transform: translateY(-50%);
+  .active-btn {
+    background-color: var(--color-secondary) !important;
+    transition: all 0.4s ease-in-out;
+    i {
+      color: var(--color-white) !important;
+    }
+  }
   .control {
     padding: 1rem;
     cursor: pointer;
@@ -99,5 +106,10 @@ section {
     align-items: center;
     margin: 0.7rem 0;
     box-shadow: var(--box-shadow-1);
+    i {
+      font-size: 1.2rem;
+      color: var(--color-grey-2);
+      pointer-events: none;
+    }
   }
 }
