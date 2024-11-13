@@ -60,7 +60,6 @@ section {
 .sec1 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: red;
 }
 
 .sec2 {
