@@ -17,6 +17,11 @@ function PageTransitions() {
       this.classList.add("active-btn");
     });
   }
+
+  // Sections Active class
+  allSections.addEventListener("click", (e) => {
+    console.log(e.target);
+  });
 }
 
 PageTransitions();
