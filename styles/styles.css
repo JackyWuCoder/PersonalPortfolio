@@ -198,6 +198,10 @@ section {
 }
 
 /*Independent components*/
+.btn-con {
+  display: flex;
+}
+
 .main-btn {
   border-radius: 30px;
   color: inherit;
