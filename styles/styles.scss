@@ -261,6 +261,11 @@ section {
 
 .about-stats {
   padding-bottom: 4rem;
+  .progress-bars {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
 }
 
 /*Independent components*/
